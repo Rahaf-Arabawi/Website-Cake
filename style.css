@@ -1,0 +1,96 @@
+/* tasks */
+.color{
+    background-color:#f9f2eb ;
+}
+.cake{
+    height: 40px;
+    background-color:#392613 ;
+
+    font-family: cursive;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+}
+p.cup{
+    background-color:#664d00 ;
+    height: 50px;
+    text-align: center;
+    padding-top: 20px;
+    word-spacing: 20px;
+    color: #e6ccb3;
+    font-family: cursive;
+}
+.cup3:hover{
+    background-color: white;
+    color: #e6ccb3;
+}
+div.chocolate{
+    background-color:#f3e5d8 ;
+    padding: 60px;
+    text-align: center;
+    padding-top: 10px;
+    font-family: cursive;
+    color: #734d26;
+}
+p{
+    color:#806000 ;
+}
+img{
+    width: 400px;
+    height: 400px;
+    }
+fieldset.ul{
+    padding: 20px;
+    color: #331a00;
+    font-family: brush script;
+}
+li{
+    font-family: cursive;
+    color: ;
+}
+.aa:hover{
+    background-color: green;
+}
+.a1:hover{
+    background-color: yellow;
+}
+.cake2 {
+  background-color: #62401d;
+  height: 40px;
+  padding-top: 15px;
+  text-align: center;
+  color:aliceblue;
+  font-family:cursive;
+}
+.pp{
+    padding-left: 30px;
+    color: #331a00;
+    font-family: brush script;
+}
+.ChocolateCake{
+    background-image: url(cake2.jpeg);
+}
+.main-background{
+    background-image: url(cake2.jpeg);
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    padding: 80px;
+    padding-right: 80px; 
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    background-color: black;
+    background-size: cover;
+    animation: backgroundMove 5s infinite linear;
+}
+.more{
+    background-color: #f2f2f2;
+    font-size: 30px;
+}
+@keyframes backgroundMove {
+    from {
+      background-position: 0 0;
+    }
+    to {
+      background-position: 100% 100%;
+    }
