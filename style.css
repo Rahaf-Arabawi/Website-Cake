@@ -46,7 +46,6 @@ fieldset.ul{
 }
 li{
     font-family: cursive;
-    color: ;
 }
 .aa:hover{
     background-color: green;
@@ -81,16 +80,11 @@ li{
     font-size: 40px;
     background-color: black;
     background-size: cover;
-    animation: backgroundMove 5s infinite linear;
+    background-attachment: fixed;
 }
 .more{
+    border: #f2f2f2;
     background-color: #f2f2f2;
     font-size: 30px;
+
 }
-@keyframes backgroundMove {
-    from {
-      background-position: 0 0;
-    }
-    to {
-      background-position: 100% 100%;
-    }
